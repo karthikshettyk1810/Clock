@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+}
+/* div
+{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    backdrop-filter: blur(4.5px);
+} */
+
+#clock
+{
+    justify-content:space-between;
+    color:whitesmoke;
+    font-weight: 600;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(2px);
+    border: solid 2px rgba(255, 255, 255, .2);
+    border-radius: 22px;
+    width: 8%;
+    padding: 1% 2%;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(clock.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+/* .container
+{
+    border-radius: 2px;
+} */
